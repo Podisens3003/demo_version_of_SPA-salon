@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1rem;
+    background-color: rgba(192, 170, 148, 0.282);
+    height: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(117, 107, 107);
+
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a:hover {
+    box-shadow: 5px 5px 10px rgb(117, 107, 107);
+}
+
+a:visited {
+    color: rgb(80, 70, 70);
+}
+
+header {
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 400px 1fr 400px;
+    align-items: center;
+    height: 80%;
+}
+
+form {
+    display: grid;
+}
+
+input {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px;
+}
+
+span {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.gradient {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, rgb(153, 1, 255), rgb(36, 0, 241));
+}
+
+div {
+    width: 400px;
+    height: 285px;
+    display: block;
+    position: relative;
+}
+
+div>span {
+    font-size: 1.5rem;
+    top: 60px;
+    left: 55px;
+    position: absolute;
+    font-weight: bold;
+    background: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    transform: rotate3d(0.2, 2, 0.7, -44deg);
+}
+
+.logout-btn {
+    background-color: tomato;
+    color: white;
+}

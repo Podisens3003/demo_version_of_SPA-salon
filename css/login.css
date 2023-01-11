@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1rem;
+    background-color: rgba(192, 170, 148, 0.282);
+    height: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(117, 107, 107);
+
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a:hover {
+    box-shadow: 5px 5px 10px rgb(117, 107, 107);
+}
+
+a:visited {
+    color: rgb(80, 70, 70);
+}
+
+header {
+    margin: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form>input {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px;
+}
+
+span {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    text-align: center;
+}

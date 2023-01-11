@@ -1,0 +1,115 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1rem;
+    background-color: rgba(192, 170, 148, 0.282);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(117, 107, 107);
+
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a:hover {
+    box-shadow: 5px 5px 10px rgb(117, 107, 107);
+}
+
+a:visited {
+    color: rgb(80, 70, 70);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+p {
+    letter-spacing: 0.11rem;
+    padding: 30px 40px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+}
+
+.content>aside {
+    align-self: center;
+    text-align: center;
+    height: fit-content;
+    border: 2px dashed black;
+    border-radius: 8px;
+    padding: 0 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article {
+    line-height: 1.6;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+}
+
+section>article {
+    position: relative;
+    background-color: rosybrown;
+    border: 2px moccasin solid;
+    border-radius: 5px;
+}
+
+.price {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    background-color: rgb(121, 92, 84);
+    color: rgb(192, 181, 176);
+    transform: rotate(45deg);
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+hr {
+    margin: 4px 10px;
+}
+
+aside>div {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+aside h4 {
+    margin: 5px 0;
+}
+
+.personal-discount-timer {
+    border: 2px dashed orange;
+}
+
+.birthday-discount {
+    border: 2px dotted limegreen;
+}
